@@ -232,11 +232,9 @@ class Student_Details:
         button_frame1=Frame(class_student_frame,bd=2,relief=RIDGE)
         button_frame1.place(x=0,y=260,width=700,height=60)
 
-        take_photo_button=Button(button_frame1,command=self.generate_dataset,text="Take Photo",width=30,font=("times new roman",15,"bold"),bg="blue",fg="white")
+        take_photo_button=Button(button_frame1,command=self.generate_dataset,text="Take Photo",width=60,font=("times new roman",15,"bold"),bg="blue",fg="white")
         take_photo_button.grid(row=0,column=0)
 
-        update_photo_button=Button(button_frame1,text="Update Photo",width=30,font=("times new roman",15,"bold"),bg="blue",fg="white")
-        update_photo_button.grid(row=0,column=1)
 
 
         # Right label frame
