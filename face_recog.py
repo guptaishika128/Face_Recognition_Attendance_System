@@ -48,27 +48,6 @@ class Face_Recognition:
                 f.writelines(f"\n{i},{r},{n},{d},{dtString},{d1},Present")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     #*****************Face Recognition******************************
     def face_recogn(self):
         def draw_boundary(img,classifier,scaleFactor,minNeighbors,color,text,clf):
