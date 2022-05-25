@@ -86,6 +86,7 @@ class Student_Attendance:
 
         # Time
 
+
         timelabel=Label(inside_left_frame, text="Time:", bg="white", font="comicsansns 11 bold")
         timelabel.grid(row=2,column=0)
 
