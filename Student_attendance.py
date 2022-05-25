@@ -115,19 +115,16 @@ class Student_Attendance:
         #Button Frames
 
         button_frame=Frame(inside_left_frame,bd=2,relief=RIDGE)
-        button_frame.place(x=0,y=310,width=700,height=85)
+        button_frame.place(x=0,y=270,width=700,height=120)
 
-        import_button=Button(button_frame,text="Import Attendance csv",command=self.importcsv,width=30,font=("times new roman",15,"bold"),bg="blue",fg="white")
+        import_button=Button(button_frame,text="Import Attendance csv",command=self.importcsv,width=60,font=("times new roman",15,"bold"),bg="blue",fg="white")
         import_button.grid(row=0,column=0)
 
-        export_button=Button(button_frame,text="Export Attendance csv",command=self.exportcsv,width=30,font=("times new roman",15,"bold"),bg="blue",fg="white")
-        export_button.grid(row=0,column=1)
+        export_button=Button(button_frame,text="Export Attendance csv",command=self.exportcsv,width=60,font=("times new roman",15,"bold"),bg="blue",fg="white")
+        export_button.grid(row=1,column=0)
 
-        update_button=Button(button_frame,text="Update",width=30,font=("times new roman",15,"bold"),bg="blue",fg="white")
-        update_button.grid(row=1,column=0)
-
-        reset_button=Button(button_frame,text="Reset",command=self.reset_data,width=30,font=("times new roman",15,"bold"),bg="blue",fg="white")
-        reset_button.grid(row=1,column=1)
+        reset_button=Button(button_frame,text="Reset",command=self.reset_data,width=60,font=("times new roman",15,"bold"),bg="blue",fg="white")
+        reset_button.grid(row=2,column=0)
 
 
 
