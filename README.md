@@ -7,7 +7,7 @@ The file in the directory are:
 * main.py: This is the main  script of the project.
                     It implements the GUI of the project and calls functions from the modules package developed.
 
-* haarcascade_frontalface_default.xml: This file is taken from the OpenCV library and contains trained configurations of Voila-Jones Algorithm for detecting faces.
+* haarcascade_frontalface_default.xml: This file is taken from the OpenCV library and contains trained configurations for detecting faces.
 
 
 
