@@ -1,3 +1,12 @@
+"""
+
+Main Script
+Start the GUI of the application and calls the required modules for necessary functionality
+Run this script to start the application
+
+"""
+
+
 from tkinter import*
 from tkinter import ttk
 import tkinter
