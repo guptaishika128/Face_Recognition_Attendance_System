@@ -62,14 +62,14 @@ class Face_Recognition_System:
 
         #***************For Train Face button*****************
 
-        train_img=Image.open("Images//trainimage.png")
+        train_img=Image.open("Images//a.jpg")
         train_img=train_img.resize((220,220),Image.ANTIALIAS)
         self.trainimg=ImageTk.PhotoImage(train_img)
 
         b1=Button(root,image=self.trainimg,command=self.train_data,cursor="hand2")
         b1.place(x=500,y=150,width=220,height=220)
 
-        b1_1=Button(root,text="Train Image",font=("arial",15,"bold"),command=self.train_data,cursor="hand2")
+        b1_1=Button(root,text="Train Image",font=("arial",15,"bold"),bg="blue",fg="white",command=self.train_data,cursor="hand2")
         b1_1.place(x=500,y=350,width=220,height=40)
 
 
@@ -83,7 +83,7 @@ class Face_Recognition_System:
         b1=Button(root,image=self.dfimg,cursor="hand2",command=self.face_data)
         b1.place(x=800,y=150,width=220,height=220)
 
-        b1_1=Button(root,text="Face Recognizer",font=("arial",15,"bold"),cursor="hand2",command=self.face_data)
+        b1_1=Button(root,text="Face Recognizer",font=("arial",15,"bold"),bg="blue",fg="white",cursor="hand2",command=self.face_data)
         b1_1.place(x=800,y=350,width=220,height=40)
 
 
@@ -97,7 +97,7 @@ class Face_Recognition_System:
         b1=Button(root,image=self.attimg,cursor="hand2",command=self.attendance_data)
         b1.place(x=1100,y=150,width=220,height=220)
 
-        b1_1=Button(root,text="Attendance Report",font=("arial",15,"bold"),cursor="hand2",command=self.attendance_data)
+        b1_1=Button(root,text="Attendance Report",font=("arial",15,"bold"),bg="blue",fg="white",cursor="hand2",command=self.attendance_data)
         b1_1.place(x=1100,y=350,width=220,height=40)
 
 
@@ -111,7 +111,7 @@ class Face_Recognition_System:
         b1=Button(root,image=self.picimg,cursor="hand2",command=self.open_image)
         b1.place(x=200,y=450,width=220,height=220)
 
-        b1_1=Button(root,text="Photos",font=("arial",15,"bold"),cursor="hand2",command=self.open_image)
+        b1_1=Button(root,text="Photos",font=("arial",15,"bold"),bg="blue",fg="white",cursor="hand2",command=self.open_image)
         b1_1.place(x=200,y=650,width=220,height=40)
 
 
@@ -125,7 +125,7 @@ class Face_Recognition_System:
         b1=Button(root,image=self.aboutimg,command=self.about_developer_data,cursor="hand2")
         b1.place(x=500,y=450,width=220,height=220)
 
-        b1_1=Button(root,text="About Developer",font=("arial",15,"bold"),command=self.about_developer_data,cursor="hand2")
+        b1_1=Button(root,text="About Developer",font=("arial",15,"bold"),bg="blue",fg="white",command=self.about_developer_data,cursor="hand2")
         b1_1.place(x=500,y=650,width=220,height=40)
 
 
@@ -139,7 +139,7 @@ class Face_Recognition_System:
         b1=Button(root,image=self.helpimg,cursor="hand2",command=self.help_data)
         b1.place(x=800,y=450,width=220,height=220)
 
-        b1_1=Button(root,text="Help",font=("arial",15,"bold"),cursor="hand2",command=self.help_data)
+        b1_1=Button(root,text="Help",font=("arial",15,"bold"),bg="blue",fg="white",cursor="hand2",command=self.help_data)
         b1_1.place(x=800,y=650,width=220,height=40)
 
 
@@ -153,7 +153,7 @@ class Face_Recognition_System:
         b1=Button(root,image=self.exitimg,cursor="hand2",command=self.exit_win)
         b1.place(x=1100,y=450,width=220,height=220)
 
-        b1_1=Button(root,text="Exit",font=("arial",15,"bold"),cursor="hand2",command=self.exit_win)
+        b1_1=Button(root,text="Exit",font=("arial",15,"bold"),bg="blue",fg="white",cursor="hand2",command=self.exit_win)
         b1_1.place(x=1100,y=650,width=220,height=40)
 
 
