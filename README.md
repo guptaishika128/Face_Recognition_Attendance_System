@@ -28,3 +28,15 @@ The project also requires [Tkinter](https://docs.python.org/2/library/tkinter.ht
 * [OpenCV](http://docs.opencv.org/3.1.0/) - Implementation of Algorithms
 * [Tkinter](https://docs.python.org/2/library/tkinter.html) - GUI Implementation
 * [Numpy](http://www.numpy.org/) - Used to manage computaions.
+
+**Following functionalities can be performed by the admin: <br>**
+• Login <br>
+• Register new employees to the system <br>
+• Add employee photos to the training data set <br>
+• Train the model <br>
+• View attendance report of all employees. Attendance can be filtered by date or employee. <br>
+
+**Following functionalities can be performed by the employee: <br>**
+• Login <br>
+• Mark his/her time-in and time-out by scanning their face <br>
+• View attendance report of self <br>

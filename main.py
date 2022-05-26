@@ -27,6 +27,7 @@ class Face_Recognition_System:
         self.root=root
         self.root.geometry("1536x816+0+0")
         self.root.title("Face Recognition")
+        self.root.configure(bg="light blue")
        
 
         title_lbl=Label(root,text="FACE RECOGNITION ATTENDANCE SYSTEM",font=("times new roman",40,"bold"),bg="orchid",fg="white")
@@ -54,22 +55,8 @@ class Face_Recognition_System:
         b1=Button(root,image=self.img1,command=self.student_details,cursor="hand2")
         b1.place(x=200,y=150,width=220,height=220)
 
-        b1_1=Button(root,text="Student Details",font=("arial",15,"bold"),command=self.student_details,cursor="hand2")
+        b1_1=Button(root,text="Student Details",font=("arial",15,"bold"),bg="blue",fg="white",command=self.student_details,cursor="hand2")
         b1_1.place(x=200,y=350,width=220,height=40)
-
-
-
-        #****************Recognize face button***********
-
-        detectface_img=Image.open("Images//facedetect.jpg")
-        detectface_img=detectface_img.resize((220,220),Image.ANTIALIAS)
-        self.dfimg=ImageTk.PhotoImage(detectface_img)
-
-        b1=Button(root,image=self.dfimg,cursor="hand2",command=self.face_data)
-        b1.place(x=500,y=150,width=220,height=220)
-
-        b1_1=Button(root,text="Face Recognizer",font=("arial",15,"bold"),cursor="hand2",command=self.face_data)
-        b1_1.place(x=500,y=350,width=220,height=40)
 
 
 
@@ -80,9 +67,23 @@ class Face_Recognition_System:
         self.trainimg=ImageTk.PhotoImage(train_img)
 
         b1=Button(root,image=self.trainimg,command=self.train_data,cursor="hand2")
-        b1.place(x=800,y=150,width=220,height=220)
+        b1.place(x=500,y=150,width=220,height=220)
 
         b1_1=Button(root,text="Train Image",font=("arial",15,"bold"),command=self.train_data,cursor="hand2")
+        b1_1.place(x=500,y=350,width=220,height=40)
+
+
+
+        #****************Recognize face button***********
+
+        detectface_img=Image.open("Images//facedetect.jpg")
+        detectface_img=detectface_img.resize((220,220),Image.ANTIALIAS)
+        self.dfimg=ImageTk.PhotoImage(detectface_img)
+
+        b1=Button(root,image=self.dfimg,cursor="hand2",command=self.face_data)
+        b1.place(x=800,y=150,width=220,height=220)
+
+        b1_1=Button(root,text="Face Recognizer",font=("arial",15,"bold"),cursor="hand2",command=self.face_data)
         b1_1.place(x=800,y=350,width=220,height=40)
 
 
