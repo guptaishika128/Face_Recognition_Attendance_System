@@ -1,11 +1,9 @@
 """
-
 Main Script
 Start the GUI of the application and calls the required modules for necessary functionality
 Run this script to start the application
 
 """
-
 
 from tkinter import*
 from tkinter import ttk
@@ -40,7 +38,7 @@ class Face_Recognition_System:
             lbl.config(text = string)
             lbl.after (1000, time)
 
-        lbl = Label(title_lbl, font=('tines new roman',14, 'bold'), background='black', foreground ='orchid')
+        lbl = Label(title_lbl, font=('times new roman',14, 'bold'), background='black', foreground ='orchid')
         lbl.place(x=5, y=10,width=120,height=50)
         time()
 
