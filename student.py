@@ -588,7 +588,7 @@ class Student_Details:
                         break
                 cam.release()
                 cv2.destroyAllWindows()
-                messagebox.showinfo("Result","Generating data sets completed!!!!")
+                messagebox.showinfo("Result","Generating data sets completed!!!!",parent=self.root)
             except Exception as es:
                 messagebox.showerror("Error occurred",f"Due To:{str(es)}",parent=self.root)
 

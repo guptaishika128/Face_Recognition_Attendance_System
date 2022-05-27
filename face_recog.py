@@ -21,16 +21,25 @@ class Face_Recognition:
         title_lbl=Label(root,text="FACE RECOGNITION ",font=("times new roman",40,"bold"),bg="orchid",fg="white")
         title_lbl.place(x=0,y=0,width=1536,height=50)
 
+        def time():
+            string = strftime('%H:%M:%S %p')
+            lbl.config(text = string)
+            lbl.after (1000, time)
+
+        lbl = Label(title_lbl, font=('times new roman',14, 'bold'), background='black', foreground ='orchid')
+        lbl.place(x=5, y=10,width=120,height=40)
+        time()
+
         
         img_11=Image.open("Images//FACERECOG1.jpg")
-        img_11=img_11.resize((1200,800),Image.ANTIALIAS)
+        img_11=img_11.resize((1536,816),Image.ANTIALIAS)
         self.img1=ImageTk.PhotoImage(img_11)
 
         lb1=Label(self.root,image=self.img1)
-        lb1.place(x=190,y=50,width=1200,height=800)
+        lb1.place(x=5,y=50,width=1530,height=743)
 
-        b1_1=Button(root,text="Face Recognition",command=self.face_recogn,cursor="hand2",font=("times new roman",30,"bold"),bg="blue",fg="white")
-        b1_1.place(x=390,y=720,width=800,height=50)
+        b1_1=Button(root,text="Take Attendance",command=self.face_recogn,cursor="hand2",font=("times new roman",30,"bold"),bg="blue",fg="white")
+        b1_1.place(x=450,y=670,width=650,height=50)
 
     #****************Attendance*****************************
 

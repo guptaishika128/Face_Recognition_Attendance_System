@@ -52,7 +52,7 @@ class About_Developer:
         dev1_lbl=Label(main_frame,text="I am interested in development.",font=("times new roman",20,"bold"),bg="light blue",fg="black")
         dev1_lbl.place(x=0,y=220,width=730,height=50)
 
-        dev1_lbl=Label(main_frame,text="My hobbies are watching thriller movies and reading books.",font=("times new roman",20,"bold"),bg="light blue",fg="black")
+        dev1_lbl=Label(main_frame,text="My hobbies are watching thriller movies and listening songs.",font=("times new roman",20,"bold"),bg="light blue",fg="black")
         dev1_lbl.place(x=0,y=270,width=730,height=50)
 
 

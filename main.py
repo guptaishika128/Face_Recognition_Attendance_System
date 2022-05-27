@@ -32,6 +32,7 @@ class Face_Recognition_System:
         title_lbl.place(x=0,y=0,width=1536,height=80)
 
 
+
         # To display current time 
         def time():
             string = strftime('%H:%M:%S %p')
@@ -72,7 +73,7 @@ class Face_Recognition_System:
 
 
 
-        #****************Recognize face button***********
+        #****************Take Attendance/Face Recognize button***********
 
         detectface_img=Image.open("Images//facedetect.jpg")
         detectface_img=detectface_img.resize((220,220),Image.ANTIALIAS)
@@ -81,12 +82,12 @@ class Face_Recognition_System:
         b1=Button(root,image=self.dfimg,cursor="hand2",command=self.face_data)
         b1.place(x=800,y=150,width=220,height=220)
 
-        b1_1=Button(root,text="Face Recognizer",font=("arial",15,"bold"),bg="blue",fg="white",cursor="hand2",command=self.face_data)
+        b1_1=Button(root,text="Take Attendance",font=("arial",15,"bold"),bg="blue",fg="white",cursor="hand2",command=self.face_data)
         b1_1.place(x=800,y=350,width=220,height=40)
 
 
 
-        #******************For Attendance button **************
+        #******************For Viewing Attendance Report button **************
 
         att_img=Image.open("Images//attendance.jpg")
         att_img=att_img.resize((220,220),Image.ANTIALIAS)

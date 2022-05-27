@@ -30,21 +30,21 @@ class Student_Attendance:
         self.var_attend_attendance=StringVar()
 
         main_frame=Frame(root,bd=2,bg="light blue")
-        main_frame.place(x=20,y=50,width=1480,height=580)    
+        main_frame.place(x=20,y=50,width=1480,height=630)    
 
 
         # left label frame
 
         left_frame=LabelFrame(main_frame,bd=2,relief=RIDGE,text="Student Attendance Details",font=("times new roman", 13, "bold"),bg="light blue")
-        left_frame.place(x=10,y=10,width=720,height=580)   
+        left_frame.place(x=10,y=50,width=720,height=560)   
 
 
         left_img=Image.open("Images//student-attendance-form.png")
-        left_img=left_img.resize((720,130),Image.ANTIALIAS)
+        left_img=left_img.resize((720,150),Image.ANTIALIAS)
         self.lfimg=ImageTk.PhotoImage(left_img)
 
         f_lbl=Label(left_frame,image=self.lfimg)
-        f_lbl.place(x=0,y=0,width=720,height=130)
+        f_lbl.place(x=0,y=0,width=720,height=150)
 
 
         inside_left_frame=Frame(left_frame,bd=2,relief=RIDGE,bg="white")
@@ -133,11 +133,11 @@ class Student_Attendance:
         # Right label frame
 
         Right_frame=LabelFrame(main_frame, bd=2, relief=RIDGE, text="Attendance Details",  font=("times new roman", 13, "bold"),bg="light blue")
-        Right_frame.place(x=750, y=10,width=720, height=480) 
+        Right_frame.place(x=750, y=170,width=720, height=440) 
 
 
         table_frame=Frame(Right_frame,bd=2,relief=RIDGE , bg="white")
-        table_frame.place(x=5,y=5,width=700,height=445)
+        table_frame.place(x=5,y=5,width=700,height=410)
 
 
         #For scrolllbar
