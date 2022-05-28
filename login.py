@@ -1,3 +1,14 @@
+""""
+Login Page 
+Run this script to start the application
+
+
+Default Credentials : ***** Username = user@123 *******
+                      ***** Password = user@123 *******
+
+"""
+
+
 from tkinter import *
 from tkinter import ttk
 from PIL import Image,ImageTk 
