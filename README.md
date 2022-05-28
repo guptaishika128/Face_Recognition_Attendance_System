@@ -80,17 +80,21 @@ First the admin will login using either default credentials **username=user@123*
 
 ![Image](/Screenshots/Trainingdata.png)
 
-7. Now on the main page click on **Take Attendance** after that click on the button to recognize face 
+7. Now click on **Take Attendance** to recognize face . If the computer recognizes the face details are shown otherwise 'Unknown Image' message is shown
 
 ![Image](/Screenshots/TakingAttendance.png)
 
 8. Simustenously, a csv file **attendance.csv'** will be updated with the ID,Roll No, Name of the student ,Department, Date and Time at which his/her face was recognized.
 
-![Image](/Screenshots/AttendanceSaved.png)
+![Image](/Screenshots/Attendancesaved.png)
 
 9. On the main page click on **Attendance Report** and then import attendance.csv to view attendance report of students. Attendance can also be exported .
 
 ![Image](/Screenshots/Importingattendance.png)
+
+![Image](/Screenshots/Attendanceimported.png)
+
+
 
 <br>
 
