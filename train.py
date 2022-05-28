@@ -14,7 +14,7 @@ class Train:
     def __init__(self,root):
         self.root=root
         self.root.geometry("1536x816+0+0")
-        self.root.title("Student Details")
+        self.root.title("Train Image")
 
 
         title_lbl=Label(root,text="TRAIN IMAGE",font=("times new roman",40,"bold"),bg="orchid",fg="white")
