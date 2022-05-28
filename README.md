@@ -119,3 +119,7 @@ First the admin will login using either default credentials **username=user@123*
 • Take attendance by scanning face <br>
 • View attendance report of all students by importing csv. Also attendance can be exported too. <br>
 
+
+## ❤️ Owner
+Made with ❤️  by Ishika Gupta
+
