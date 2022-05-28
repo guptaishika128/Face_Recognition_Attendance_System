@@ -20,14 +20,14 @@ The project also requires [Tkinter](https://docs.python.org/2/library/tkinter.ht
 
 ## Built With
 
-* [OpenCV](http://docs.opencv.org/3.1.0/) - Implementation of Algorithms
-* [Tkinter](https://docs.python.org/2/library/tkinter.html) - GUI Implementation
-* [Numpy](http://www.numpy.org/) - Used to manage computaions.
+* [OpenCV]
+* [Tkinter]
+* [MySQL]
 
 **Following functionalities can be performed: <br>**
 • Login <br>
 • New User Account can also be created. <br>
-• If forgotten the login credentials password can also be changed <br>
+• If forgotten the login credentials password can be changed <br>
 • Register new students to the system. Students can be filtered by Name or Department<br>
 • Take photo sample of them <br>
 • Train the model <br>
