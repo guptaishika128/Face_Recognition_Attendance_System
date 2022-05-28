@@ -26,9 +26,10 @@ This project has been developed as a part of the Microsoft Engage 2022 program.
 - Enter password stated above in the window
 ![Image](/demoimages/mysql1.png)
 
-- Now create two schemas one with name **face_recognizer** and other with **mydata**
+- Now create two schemas one with name **face_recognizer** 
 ![Image](/demoimages/schema1.png)
 
+- Other schema with name **mydata**
 ![Image](/demoimages/schema2.png)
 
 - Now as shown below click on Data Import
