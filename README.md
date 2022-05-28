@@ -47,7 +47,7 @@ This project has been developed as a part of the Microsoft Engage 2022 program.
 - **You have connected**. Refreshing you will be able to see student and register sql files under schemas
 ![Image](/Screenshots/Connected.png)
 
--Now run **login.py** 
+- Now run **login.py** 
 
 
 ## ⚙️ HOW THE SYSTEM WORKS?
