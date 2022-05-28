@@ -96,8 +96,6 @@ First the admin will login using either default credentials **username=user@123*
 
 
 
-<br>
-
 
 ## Built With
 
