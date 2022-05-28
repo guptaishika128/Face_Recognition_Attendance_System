@@ -15,7 +15,7 @@ This project has been developed as a part of the Microsoft Engage 2022 program.
 ### Installing
 
 The steps to install OpenCV with the extra module can be found [here](https://github.com/opencv/opencv_contrib).
-The project also requires [Tkinter](https://docs.python.org/2/library/tkinter.html) and [Numpy](http://www.numpy.org/).
+The project also requires [Tkinter](https://docs.python.org/2/library/tkinter.html) and [MySQL](https://www.mysql.com/).
 
 
 ## Built With
