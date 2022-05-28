@@ -103,7 +103,7 @@ First the admin will login using either default credentials **username=user@123*
 
 * [OpenCV](http://docs.opencv.org/3.1.0/) - Implementation of Algorithms
 * [Tkinter](https://docs.python.org/2/library/tkinter.html) - GUI Implementation
-* [MySQL] - Database
+* [MySQL](https://docs.oracle.com/en-us/iaas/mysql-database/doc/getting-started.html) - Database
 * [HAAR-CASCADE CLASSIFIER](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)
 * [LocalBinaryPatternHistogram (LBPH) recognizer](https://docs.opencv.org/master/df/d25/classcv_1_1face_1_1LBPHFaceRecognizer.html)
 * [PIL](https://pillow.readthedocs.io/en/stable/)
