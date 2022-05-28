@@ -84,7 +84,7 @@ First the admin will login using either default credentials **username=user@123*
 
 ![Image](/Screenshots/TakingAttendance.png)
 
-8. Simustenously, a csv file **attendance.csv'** will be updated with the ID,Roll No, Name of the student ,Department, Date and Time at which his/her face was recognized.
+8. Simultaneously, a csv file **attendance.csv** will be updated with the ID,Roll No, Name of the student ,Department, Date and Time at which his/her face was recognized.
 
 ![Image](/Screenshots/Attendancesaved.png)
 
