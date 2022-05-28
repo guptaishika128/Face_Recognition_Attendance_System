@@ -21,28 +21,28 @@ This project has been developed as a part of the Microsoft Engage 2022 program.
 - To do that install MySQL with **username = root** and **password = Ishika12382** and port 3306 (By default)
 
 - Now open MySQL Workbench and click on default connection
-![Image](/demoimages/MySQL.png)
+![Image](/Screenshots/MySQL.png)
 
 - Enter password stated above in the window
-![Image](/demoimages/mysql1.png)
+![Image](/Screenshots/mysql1.png)
 
 - Now create two schemas one with name **face_recognizer** 
-![Image](/demoimages/schema1.png)
+![Image](/Screenshots/schema1.png)
 
 - Other schema with name **mydata**
-![Image](/demoimages/schema2.png)
+![Image](/Screenshots/schema2.png)
 
 - Now as shown below click on Data Import
-![Image](/demoimages/DataImport.png)
+![Image](/Screenshots/DataImport.png)
 
 - Clicking on Import from Dump Project Folder find the location where you cloned this project under that click on **Database** folder 
-![Image](/demoimages/findingdatabasefolder.png)
+![Image](/Screenshots/findingdatabasefolder.png)
 
 - You will see two files select both and click on Start Import
-![Image](/demoimages/import.png)
+![Image](/Screenshots/import.png)
 
-- You have connected. Refreshing you will be able to see student and register sql files under schemas
-![Image](/demoimages/Connected.png)
+- **You have connected**. Refreshing you will be able to see student and register sql files under schemas
+![Image](/Screenshots/Connected.png)
 
 **
 
