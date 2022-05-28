@@ -95,7 +95,7 @@ class login_window:
             self.new_window=Toplevel(self.root)
             self.obj=Face_Recognition_System(self.new_window)
         else:
-            conn=mysql.connector.connect(host="localhost",user="root",password="Ishika12382",database="mydata")
+            conn=mysql.connector.connect(host="localhost",username="root",password="Ishika12382",database="mydata")
             my_cursor=conn.cursor()
             my_cursor.execute("select * from register where email=%s and password=%s",(
                                                                                         self.txtuser.get(),
@@ -122,7 +122,7 @@ class login_window:
         elif self.txt_new_password.get()=="":
             messagebox.showerror("Error","Please enter the new password",parent=self.root2)
         else:
-            conn=mysql.connector.connect(host="localhost",user="root", password="Ishika12382", database="mydata")
+            conn=mysql.connector.connect(host="localhost",username="root", password="Ishika12382", database="mydata")
             my_cursor=conn.cursor()
             query=("select * from register where email=%s and securityQ=%s and securityA=%s")
             value=(self.txtuser.get(),self.combo_security_Ques.get(),self.txt_security.get())
@@ -147,7 +147,7 @@ class login_window:
         if self.txtuser.get()=="":
             messagebox.showerror("Error", "Please Enter the Email address to reset password")
         else:
-            conn=mysql.connector.connect(host="localhost", user="root", password="Ishika12382", database="mydata")
+            conn=mysql.connector.connect(host="localhost", username="root", password="Ishika12382", database="mydata")
             my_cursor=conn.cursor()
             query=("select * from register where email=%s")
             value=(self.txtuser.get(),)
@@ -322,7 +322,7 @@ class register_window:
             elif self.var_check.get()==0:
                 messagebox.showerror("Error","Plaese agree our term and conditions",parent=self.root)
             else: 
-                conn=mysql.connector.connect(host="localhost",user="root",password="Ishika12382",database="mydata")
+                conn=mysql.connector.connect(host="localhost",username="root",password="Ishika12382",database="mydata")
                 my_cursor=conn.cursor()
                 query=("select * from register where email=%s")
                 value=(self.var_email.get(),)
