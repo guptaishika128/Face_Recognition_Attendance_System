@@ -55,7 +55,7 @@ This project has been developed as a part of the Microsoft Engage 2022 program.
 This system works accordingly with a series of step explained below:
 
 1. **LOGIN PAGE**:
-<br>
+
 First the admin will login using either default credentials **username=user@123** and **password=user@123** or can create a new account.
 
 ![Image](/Screenshots/Loginpage.png)
